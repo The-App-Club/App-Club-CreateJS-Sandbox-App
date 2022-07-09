@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "format": "prettier --write \"{,!(node_modules|dist|build)/**/}*.*\""
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1",
+    "vite": "^2.3.0"
+  },
+  "dependencies": {
+    "@createjs/easeljs": "^2.0.0-beta.4",
+    "@tweenjs/tween.js": "^18.6.4",
+    "gsap": "^3.8.0"
+  }
+}
